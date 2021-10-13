@@ -5,7 +5,7 @@ This project is about implementing a REST API in python using Flask as backend f
 
 ## How to run locally via REST API:
 
-Open your terminal and run the server.py file.
+Clone this repository and run the server.py file.
 
 ```
 >> python server.py
