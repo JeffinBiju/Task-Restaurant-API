@@ -42,7 +42,7 @@ class SQLiteBackend(object):
 
         if self.engine:
             return
-        self.engine = create_engine(db_creation, echo=True, pool_recycle=3600)
+        self.engine = create_engine(db_creation, echo=False, pool_recycle=3600)
         self.Session.configure(bind=self.engine)
 
     def bootstrap(self):
